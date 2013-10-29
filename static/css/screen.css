@@ -233,7 +233,11 @@ html,body{
 }
 #main blockquote{
 	border:1px dashed #ccc;
+	width: 80%;
+	margin: 0 auto;
 	font-style:italic;
+	font-family: "Georgia", "Times New Roman", "Serif";
+	font-size: 85%;
 	margin-bottom:1em;
 	padding:.5em;
 }
