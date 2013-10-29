@@ -160,7 +160,7 @@ html,body{
 }
 #main h1,#main h2,#main h3,#main h4,#main h5,#main h6{
 	color:#4b4b4b;
-	font-family:Marmelad,Georgia,"Helvetica Neue",Arial,sans-serif;
+	font-family:"Trebuchet", Marmelad,"Helvetica Neue",Arial,sans-serif;
 	line-height:140%;
 	margin:1em 0;
 }
@@ -182,6 +182,8 @@ html,body{
 	margin-bottom:1em;
 	text-align:justify;
 	text-justify:newspaper;
+	font-family: sans-serif;
+	line-height: 200%;
 }
 #main img{
 	border:1px solid #ddd;
