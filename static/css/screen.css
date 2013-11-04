@@ -182,8 +182,10 @@ html,body{
 	margin-bottom:1em;
 	text-align:justify;
 	text-justify:newspaper;
-	font-family: sans-serif;
+	font-family: "Kandal-Book",Georgia,Cambria,"Times New Roman",Times,serif;
+	text-rendering: optimizelegibility;
 	line-height: 200%;
+	font-color: rgb(51, 51, 50);
 }
 #main img{
 	border:1px solid #ddd;
@@ -537,7 +539,8 @@ pre{
 		text-shadow:none!important;
 	}
 	body{
-		font:12pt Arial,Helvetica,FreeSans,"Liberation Sans","Nimbus Sans L",sans-serif;
+		/*font:12pt Arial,Helvetica,FreeSans,"Liberation Sans","Nimbus Sans L",sans-serif;*/
+		font-family: "Kandal-Book",Georgia,Cambria,"Times New Roman",Times,serif;
 	}
 	#header-wrapper,#footer-wrapper{
 		display:none;
