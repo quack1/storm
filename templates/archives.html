@@ -6,7 +6,7 @@
 <h2>{{ year }}</h2>
 {% for month, articles in date_year|groupby( 'date.month' )|reverse %}
 <dl>{% for article in articles|reverse %}
-    <dd><a href="{{ article.url }}">{{ article.title }}</a> <span class="archive-date">{{ article.date.strftime('%d') }} {{ article.date.strftime('%B')[:3] }}</span></dd>
+    <dd><i class="icon-feather"></i> <a href="{{ article.url }}">{{ article.title }}</a> <span class="archive-date">{{ article.date.strftime('%d') }} {{ article.date.strftime('%B')[:3] }}</span></dd>
 {% endfor %}
 {% endfor %}
 {% endfor %}
