@@ -246,7 +246,7 @@ html,body{
 	padding:.5em;
 }
 #main a{
-	color:#3C4FB5;
+	color:#1C85B6;
 	text-decoration:none;
 }
 #main a:hover{
@@ -254,7 +254,7 @@ html,body{
 	text-decoration:underline;
 }
 #main a:visited{
-	color:#3C4FB5;
+	color:#1C85B6;
 }
 #main table{
 	border-collapse:collapse;
