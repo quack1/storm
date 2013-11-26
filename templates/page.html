@@ -1,6 +1,6 @@
 {% extends "base.html" %}
-{% block windowtitle %}{{ page.title }}{% endblock %}
-{% block title %}{{ page.title }}{% endblock %}
+{% block windowtitle %}{{ page.title|striptags }}{% endblock %}
+{% block title %}{{ page.title|striptags }}{% endblock %}
 {% block content %}
 <h2><a href="{{ SITEURL }}/{{ page.url }}">{{ page.title }}</a></h2>
 {{ page.content }}
