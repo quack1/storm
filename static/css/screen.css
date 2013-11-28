@@ -10,7 +10,7 @@ html,body{
 }
 #outer-wrapper{
 	background-image:url(../img/noise.jpg);
-	font:normal 17px/1.524 Arial,Helvetica,FreeSans,"Liberation Sans","Nimbus Sans L",sans-serif;
+	font:normal 17px/1.524 "Kandal-Book",Georgia,Cambria,"Times New Roman",Times,serif;
 	line-height:140%;
 	min-height:100%;
 	position:relative;
