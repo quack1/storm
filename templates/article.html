@@ -8,12 +8,12 @@
 {% include '_includes/share.html' %}
 
 <h5><i class="icon-feather"></i> {{ article.locale_date }} {% if article.update %} &nbsp; <i class="icon-spin4"></i> {{ article.update }} {% endif %}</h5>
+<hr>
 {{ article.content }}
 <h5><i class="icon-feather"></i> <a href="{{ SITEURL }}/{{ article.author.url }}">{{ article.author }}</a>,
 	<i class="icon-feather"></i> {% for tag in article.tags %}
 	<span><a href="{{ SITEURL }}/{{ tag.url }}">{{ tag }}</a> / </span>
 	{% endfor %}</h5>
-	<p align="center"><a href="#">⇑</a></p>
 
 {% include '_includes/share.html' %}
 
