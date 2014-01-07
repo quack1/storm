@@ -3,9 +3,27 @@
 {% block title %}{{ page.title|striptags }}{% endblock %}
 {% block content %}
 <h2><a href="{{ SITEURL }}/{{ page.url }}">{{ page.title }}</a></h2>
+
+{% include '_includes/share_page.html' %}
 {{ page.content }}
+{% include '_includes/share_page.html' %}
+
+{% if DISQUS_SITENAME %}
+	<h3>Commentaires</h3>
+	<div id="disqus_thread">
+	    <script type="text/javascript">
+	       var disqus_identifier = "{{ page.url }}";
+	       (function() {
+	       var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+	       dsq.src = 'http://{{ DISQUS_SITENAME }}.disqus.com/embed.js';
+	       (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+	      })();
+	    </script>
+	</div>
+{% endif %}
 
 {% if PDF_PROCESSOR %}
 <h5><a href="{{ SITEURL }}/pdf/{{ page.slug }}.pdf">get the pdf</a></h5>
 {% endif %}
 {% endblock %}
+
