@@ -10,7 +10,6 @@ html,body{
 }
 #outer-wrapper{
 	background-image:url(../img/noise.jpg);
-	font:normal 17px/1.524 "Kandal-Book",Georgia,Cambria,"Times New Roman",Times,serif;
 	line-height:140%;
 	min-height:100%;
 	position:relative;
@@ -66,7 +65,7 @@ html,body{
 }
 #main{
 	margin:0 auto;
-	max-width:800px;
+	max-width:700px;
 	padding-bottom:6.25em;
 	width:60%;
 }
@@ -182,9 +181,8 @@ html,body{
 	margin-bottom:1em;
 	text-align:justify;
 	text-justify:newspaper;
-	font-family: "Kandal-Book",Georgia,Cambria,"Times New Roman",Times,serif;
 	text-rendering: optimizelegibility;
-	line-height: 200%;
+	line-height: 150%;
 	font-color: rgb(51, 51, 50);
 }
 #main img{
@@ -240,7 +238,6 @@ html,body{
 	width: 80%;
 	margin: 0 auto;
 	font-style:italic;
-	font-family: "Georgia", "Times New Roman", "Serif";
 	font-size: 85%;
 	margin-bottom:1em;
 	padding:.5em;
@@ -540,7 +537,6 @@ pre{
 	}
 	body{
 		/*font:12pt Arial,Helvetica,FreeSans,"Liberation Sans","Nimbus Sans L",sans-serif;*/
-		font-family: "Kandal-Book",Georgia,Cambria,"Times New Roman",Times,serif;
 	}
 	#header-wrapper,#footer-wrapper{
 		display:none;
