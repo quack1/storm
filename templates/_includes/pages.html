@@ -2,8 +2,8 @@
 <ul>
   {% for page in PAGES %}
     <li><a href="{{ SITEURL }}/{{ page.url }}">{{ page.title }}</a></li>
-    <li><a href="{{ SITEURL }}/archives.html">Articles</a></li>
     {% endfor %}
+    <li><a href="{{ SITEURL }}/archives.html">Articles</a></li>
 </ul>
 {% else %}
     <ul>
